@@ -12,8 +12,6 @@
 * [REST](rest)
 * [Suggestotron Curriculum](/curriculum)
 
-## Workshop Prep:
-* [Teacher Training](teacher_training)
 
 
 See the [toc] link in the top right for a full table of contents.
