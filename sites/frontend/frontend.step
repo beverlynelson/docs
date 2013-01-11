@@ -95,12 +95,14 @@ end</pre>
 MARKDOWN
 
 choice  do
-  option "Are your tools installed?" do
-    link "get_a_sticker"
+  option "Are your tools installed? Let's get started on the Saturday workshop" do
+    link "introduction_to_html"
   end
 
   option "Do you need to set up your tools?" do
     link "tool_installation"
+    message "Did you get a sticker?  If not: "
+    link "get_a_sticker"
   end
 end
 

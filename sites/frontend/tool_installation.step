@@ -16,8 +16,10 @@ steps do
         link "mac_os_git_installation"
       end
 
-      step "Install Komodo Edit" do
+      step "Install Komodo Edit or Sublime" do
         a "Install Komodo Edit for Mac OS X", :href => "/installfest/install_komodo_edit_for_mac"
+        p
+        a "Install Sublime for Mac OS X", :href => "http://www.sublimetext.com/2"
       end
     end
   end

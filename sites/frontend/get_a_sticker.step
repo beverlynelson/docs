@@ -39,9 +39,7 @@ verify "you can clone from GitHub do" do
     end
 
     step "Change the Name" do
-      message 'Find and click on the "Admin" button.'
-      img :src => "get_a_sticker_admin_button.png"
-      message "On the Admin page, you will see a settings box."
+      message 'Find and click on the "Settings" button.'
       img :src => "get_a_sticker_admin_settings.png"
       message "Change the repository name from `front-end-lesson` to `your_github_username.github.com`"
       message "For example, if your github username is `superhacker` change the repository name to `superhacker.github.com`"
@@ -66,5 +64,5 @@ Unpacking objects: 100% (27/27), done.
   end
 end
 
-message "If you've done all that then get a sticker from a volunteer. Happy Hacking!"
-next_step "introduction_to_html"
+message "If you've done all that then get a sticker from a volunteer. You are ready for the Saturday workshop.  Happy Hacking!"
+
