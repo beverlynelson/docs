@@ -26,6 +26,7 @@ steps do
     console "rails new suggestotron"
     message "'rails new' creates a new rails project with the name you give."
     message "In this case we told it to create a new project called `suggestotron`. We'll go into detail on what it created shortly."
+    important "Do not be concerned if it pauses at the **bundle install** line for a long time.  This is normal."
   end
 
   step do
