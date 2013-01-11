@@ -2,12 +2,13 @@ message "The Rails server logging and test results are much easier to read with 
 
 step "Download ANSICON" do
   message "In the browser, visit <https://github.com/adoxa/ansicon/downloads>"
-  message "Click the `ansi153.zip` link to download the file (or whatever the most recent version is)"
+  message "Click the `ansi160.zip` link to download the file (or whatever the most recent version is)"
   message "Double-click the downloaded file to unzip it"
 end
 
 step "Determine if you have a 32 or 64 bit Operating System" do
   message <<-MARKDOWN
+ * In Windows 8, from the Start screen, type the word computer and the Search box will appear and display the results.  Right Click on Computer and choose Properties from the sub-menu.  Sytem type under System will show whether it is a 32 or 64 bit Operating System.  
  * In Windows 7 or Vista, from the Start menu, type system in the Start Search box, and then click system in the Programs list.  System Type under System will say whether it's a 32 or 64 bit Operating System
  * In Windows XP, right click on the "My Computer" icon, choose Properties, then General
   * if System says Windows XP Professional x64 Edition Version <year> then yours is 64 bit
