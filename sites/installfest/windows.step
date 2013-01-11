@@ -18,6 +18,8 @@ step "Run RailsInstaller" do
 
   message "Rails will be installed in C:\\RailsInstaller and the directory for your Rails projects will be C:\\Sites"
 
+  important "**Windows 8 users** - you will need to make sure you install node.js directly from <http://nodejs.org/download/> in addition to RailsInstaller -  Please get a TA for this."
+
 end
 
 step "Configure your git and ssh environment" do
