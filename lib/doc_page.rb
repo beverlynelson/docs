@@ -260,7 +260,7 @@ class DocPage < Erector::Widgets::Page
     div(:class=>:bottom) {
       p "Railsbridge Docs"
       p do
-        text "Source: "
+        text "Original Source: "
         url "https://github.com/railsbridge/docs"
       end
     }
