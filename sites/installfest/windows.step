@@ -108,8 +108,9 @@ step "Install a Text Editor" do
 
   message "Notepad is not a good programming editor, but it will work in a pinch."
 
-  important "**When in doubt, use KomodoEdit.**"
+  important "**When in doubt, use Sublime or KomodoEdit.**"
 
+  message "Download Sublime here: <http://www.sublimetext.com/2>"
   message "Download KomodoEdit here: <http://downloads.activestate.com/Komodo/releases/>"
   
   message "[Komodo Edit](http://www.activestate.com/komodo-edit) is a good open source option, if you don't have one yet."
@@ -117,4 +118,12 @@ step "Install a Text Editor" do
 
 end
 
-next_step "create_a_heroku_account"
+step "Continue Installation" do
+  option "HTML/Front-End Track Participants" do 
+    message "This is all you need for the front-end group, return to the Tool Installation for front end <http://rb-nwfl.heroku.com/frontend/tool_installation>"
+
+  end
+  option "Railsbridge Core Track Participants" do
+    next_step "create_a_heroku_account"
+  end
+end
